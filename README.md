@@ -17,8 +17,33 @@
 └── Keywords: `Functions` `Procedures` 
 
 ## 📁 Files/
-soon/
+* ```srcs/```  Where the artcode happens! Here is the .c file, the logo and the binary file. <br>
 ## 🛠️ Usage
-soon/
+### Requirements
+This project requires [GNU Compiler Collection](https://gcc.gnu.org/), one terminal and the Internet to clone the reposiyoty. <br>
+❗️| Make sure you have all the required tools installed on your local machine then continue with these steps.<br>
+
+### Instructions:
+
+**0. Download the archives and starting the game**
+
+```bash
+# Clone the repository
+$ git clone git@github.com:mewmewdevart/game-TicTacToe/.git
+
+# Enter into the directory
+$ cd game-TicTacToe/
+
+# and run the binary file
+$ ./srcs/gameTicTacToe
+```
+
+**1.  How to play**
+
+- The game was designed to be played in pairs. The first player to play is 'X' and the second player is 'O'. They put 'X' or 'O' in empty spaces on a 3x3 square grid. <br>
+- At each turn, a player will type in the terminal the position of the rows and columns that the player wants to fill! <br>
+- The first player to place 3 marks in a vertical, horizontal, or diagonal row wins the game. If all spaces are filled, the game ends in a draw. <br>
+
+
 
 <p align="center"> Developed with love 💜 by Larissa Cristina Benedito (Mewmew/Larcrist). </p>
